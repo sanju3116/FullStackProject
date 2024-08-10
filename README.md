@@ -34,24 +34,29 @@ This project demonstrates a simple CRUD (Create, Read, Update, Delete) applicati
    ```bash
    git clone https://github.com/sanju3116/FullStackProject.git
    
-2.**Navigate to the Project Directory**
+2. **Navigate to the Project Directory**
+
     cd FullStackProject 
     
-  **Second Way** download the zip file extract it and copy the extracted file into the xamm>htdocs and past the file.        
+    **Second Way** download the zip file extract it and copy the extracted file into the xamm>htdocs and past the file.        
 
 3. **Set Up the Database**
+   
     Create a new MySQL database.
     Import the database schema using the provided data base file.
 
-3.**Configure Database Connection**
-  Open the connection.php file: This file contains the database connection settings.
-  Update the credentials: Replace your_username, your_password, your_database_name and your_port number with your actual database credentials.
+4.**Configure Database Connection**
+
+   Open the connection.php file: This file contains the database connection settings.
+   Update the credentials: Replace your_username, your_password, your_database_name and your_port number with your actual database credentials.
   
-4.**Start the Local Server**
-  Open XAMPP/WAMP/MAMP control panel.
-  Start Apache and MySQL services.
+5. **Start the Local Server**
+ 
+    Open XAMPP/WAMP/MAMP control panel.
+    Start Apache and MySQL services.
   
-  5 **Access the Application**
+6. **Access the Application**
+   
      Open your web browser and go to http://localhost/your-repository/create.php to access the registration page.
 
 ## API Integration
@@ -63,6 +68,7 @@ API URL
 . Authorization: 123456
 
 **How It Works**
+
 Fetching State Data:
 
 The application makes a GET request to the API endpoint to retrieve the list of states.
@@ -71,13 +77,20 @@ Usage in the Application:
 
 The fetched state data is used to populate the state dropdown in the registration form.
 
-**Using Postman**
+## Using Postman
+
 1.Open Postman.
+
 2.Create a New Request:
+
      .Choose the HTTP method (GET, POST, PUT, DELETE) based on the operation you want to test.
+     
      .Enter the URL for the API endpoint.
+     
      .Set the request body if required (for POST and PUT requests).
+     
      .Set the headers as needed (e.g., Content-Type: application/json).
+     
 3.Send the Request and Review the Response.
 
 
