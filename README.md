@@ -34,6 +34,8 @@ This project demonstrates a simple CRUD (Create, Read, Update, Delete) applicati
    ```bash
    git clone https://github.com/sanju3116/FullStackProject.git
    
+    select master branch
+   
 2. **Navigate to the Project Directory**
 
     cd FullStackProject 
